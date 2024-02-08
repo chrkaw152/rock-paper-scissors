@@ -1,0 +1,80 @@
+body {
+    background-color: #FFFBF5;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    background-color: #C3ACD0;
+    font-size: 300%;
+    padding: 3%;
+}
+
+#waitingRoom {
+    font-size: 120%;
+}
+
+#createButton {
+    margin-bottom: 2%;
+}
+
+#roomId {
+    font-size: 130%;
+}
+
+#opponentMove {
+    margin-bottom: -1%;
+    font-style: italic;
+}
+
+#yourMove {
+    font-style: italic;
+}
+
+#winnerArea {
+    margin-top: 5%;
+    font-size: 130%;
+}
+
+.startButtons:hover {
+    opacity: 0.7;
+    animation: increaseFont 0.5s linear;
+}
+
+@keyframes increaseFont {
+    50% {
+        font-size: 130%;
+    }
+}
+
+.choiceButtons {
+    margin-right: 3%;
+    margin-bottom: 5%;
+}
+
+.choiceButtons:hover {
+    animation: rotate 0.2s linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+p {
+    font-size: 140%;
+}
+
+button {
+    border-radius: 5px;
+    font-family: 'Kanit', sans-serif;
+    background-color: #C3ACD0;  
+    font-size: 120%;
+}
